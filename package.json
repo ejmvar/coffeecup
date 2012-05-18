@@ -11,7 +11,7 @@
   "dependencies": {
     "coffee-script": ">= 1.3.1",
     "optparse": ">= 1.0.3",
-    "uglify-js": "1.2.6",
+    "uglify-js": ">= 1.2.6",
     "stylus": ">=0.25.0"
   },
   "devDependencies": {
@@ -19,8 +19,8 @@
     "eco": "1.1.0-rc-1",
     "ejs": "0.4.3",
     "haml": "0.4.2",
-    "mocha": "1.0.0",
-    "should": "0.6.0"
+    "mocha": ">= 1.0.0",
+    "should": ">= 0.6.0"
   },
   "keywords": [
     "template",
@@ -32,7 +32,7 @@
   },
   "main": "./lib/coffeecup",
   "engines": {
-    "node": "0.6.x"
+    "node": ">= 0.4.0"
   },
   "scripts": {
     "test": "./node_modules/mocha/bin/mocha"
